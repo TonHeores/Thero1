@@ -1,0 +1,134 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "9596b053-9b2f-4ab2-96d2-e99bff0c5237",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "9596b053-9b2f-4ab2-96d2-e99bff0c5237@f9941",
+      "displayName": "Some gold coins",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 5,
+        "trimY": 18,
+        "width": 80,
+        "height": 54,
+        "rawWidth": 90,
+        "rawHeight": 90,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -40,
+            -27,
+            0,
+            40,
+            -27,
+            0,
+            -40,
+            27,
+            0,
+            40,
+            27,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            5,
+            72,
+            85,
+            72,
+            5,
+            18,
+            85,
+            18
+          ],
+          "nuv": [
+            0.05555555555555555,
+            0.2,
+            0.9444444444444444,
+            0.2,
+            0.05555555555555555,
+            0.8,
+            0.9444444444444444,
+            0.8
+          ],
+          "minPos": [
+            -40,
+            -27,
+            0
+          ],
+          "maxPos": [
+            40,
+            27,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "9596b053-9b2f-4ab2-96d2-e99bff0c5237@6c48a",
+        "atlasUuid": ""
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "9596b053-9b2f-4ab2-96d2-e99bff0c5237@6c48a",
+      "displayName": "Some gold coins",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "9596b053-9b2f-4ab2-96d2-e99bff0c5237",
+        "visible": false
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "hasAlpha": true,
+    "type": "sprite-frame",
+    "fixAlphaTransparencyArtifacts": false,
+    "redirect": "9596b053-9b2f-4ab2-96d2-e99bff0c5237@6c48a"
+  }
+}

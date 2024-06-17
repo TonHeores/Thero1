@@ -1,0 +1,71 @@
+
+export enum RetCode{
+
+    OK=0,
+    FAIL=-1,
+    GATE_NO_SERVER_AVAILABLE=-2,
+
+    //没有建造队列
+    NO_BUILD_TASK=-20,
+    //资源不足的类型
+    WOOD_NOT_ENOUGH = -201,
+    STONE_NOT_ENOUGH = -202,
+    IRON_NOT_ENOUGH= -203,
+    FOOD_NOT_ENOUGH=-204,
+
+
+    COIN_NOT_ENOUGH=-213,
+    WORKER_NOT_ENOUGH=-214,
+
+    //道具不足
+    ITEM_NOT_ENOUGH=-100,
+    ITEM_NOT_FOUND=-101,
+    ITEM_ID_ERROR=-102,
+
+    //建筑等级不够
+    LING_ZHU_LEVEL_NOT_ENOUGH=-300,//领主府等级不够
+
+    ENTRY_SISSION_OK=-1000,
+    ENTRY_TOKEN_INVALID=-1001,
+    ENTRY_TOKEN_EXPIRE=-1002,
+    ENTRY_USER_NOT_EXIST=-1003,
+    ENTRY_TOKEN_ILLEGAL=-1004,
+    //角色不存在
+    ROLE_NOT_EXIST=-1005,
+    ROLE_NAME_IS_EMPTY=-1006,
+    //角色名字已经存在
+    ROLE_NAME_IS_EXIST=-1007,
+    //服务器注册人数已满
+    ROLE_REG_IS_FULL=-1010,
+
+    CHANNEL_CREATE=3001,
+
+    CHAT_CHANNEL_NOT_EXIST=3002,
+    CHAT_UNKNOWN_CONNECTOR=3003,
+    CHAT_USER_NOT_ONLINE=3004,
+    CHANNEL_CREATE_FAIL=-3005,
+
+    //封地已经满了
+    FIELD_IS_FULL=-4001,
+    //封地已经存在
+    FIELD_EXIST=-4002,
+    //错误的城市ID
+    CITYID_ERORR=-4003,
+    //国家ID不一致
+    NATIONID_ERROR=-4004,
+
+    //部队编组失败
+    TROOP_ADJUST_HERO_ERROR=-5001,
+
+    MOVE_FORCE_NOT_ENOUGH=97001
+};
+
+
+
+//网络协议
+export enum PomeloNetEvent{
+    NET_CONNECTED="NET_CONNECTED",
+    NET_DISCONNECT="NET_DISCONNECT",
+    NET_ONLOGIN="NET_ONLOGIN",  //登录成功
+    NET_DATA="NET_DATA"
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    #myIframe {
+      width: 628.501px;
+      height: 1163.89px;
+      /* 或者其他指定的高度 */
+      position: absolute;
+      border: 0;
+      left: 50%;
+      top: 50%;
+      transform: translate(-51%,-49%);
+    }
+
+    #myIframe::-webkit-scrollbar {
+      display: none;
+      /* 对于Chrome, Safari和Opera等Webkit浏览器隐藏滚动条 */
+    }
+
+    body {
+      /* background: url(./image/bg.png) no-repeat center center; */
+      background-size: cover;
+      background-attachment: fixed;
+      background-color: #3c3c42;
+    }
+
+    #frameDiv {
+      /* Background pattern from Toptal Subtle Patterns */
+
+      background-image: url(./image/frame.png);
+      background-repeat: no-repeat;
+    background-size: contain;
+      width: 760px;
+      height: 1290px;
+      text-align:center;
+      margin: auto; 
+      vertical-align: middle;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="frameDiv">
+    <iframe src="./index_mobile.html" id="myIframe" scrolling="no">
+    </iframe>
+  </div>
+
+</body>
+
+</html>

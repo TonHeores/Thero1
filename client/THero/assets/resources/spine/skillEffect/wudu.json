@@ -1,0 +1,143 @@
+{
+"skeleton": { "hash": "l3eGnN+pf+R4/14x7q1NZXk/abo", "spine": "3.6.53", "width": 0, "height": 0, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "TX_Z", "parent": "root", "color": "ff0000ff" },
+	{ "name": "TX", "parent": "TX_Z", "color": "ff0000ff" },
+	{ "name": "guang", "parent": "TX", "color": "ff0000ff" },
+	{ "name": "saoguang", "parent": "TX", "color": "ff0000ff" },
+	{ "name": "wdz", "parent": "TX", "color": "ff0000ff" }
+],
+"slots": [
+	{ "name": "image/wdz_278", "bone": "wdz", "blend": "additive" },
+	{ "name": "image/guang", "bone": "guang", "color": "feec64ff", "blend": "additive" },
+	{ "name": "image/wudi_265", "bone": "saoguang", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"image/guang": {
+			"image/guang": { "width": 222, "height": 225 }
+		},
+		"image/wdz_278": {
+			"image/wdz_278": { "width": 200, "height": 200 }
+		},
+		"image/wudi_265": {
+			"image/wudi_265": { "width": 200, "height": 200 },
+			"image/wudi_266": { "width": 200, "height": 200 },
+			"image/wudi_267": { "width": 200, "height": 200 },
+			"image/wudi_268": { "width": 200, "height": 200 },
+			"image/wudi_269": { "width": 200, "height": 200 },
+			"image/wudi_270": { "width": 200, "height": 200 },
+			"image/wudi_271": { "width": 200, "height": 200 },
+			"image/wudi_272": { "width": 200, "height": 200 },
+			"image/wudi_273": { "width": 200, "height": 200 },
+			"image/wudi_274": { "width": 200, "height": 200 },
+			"image/wudi_275": { "width": 200, "height": 200 },
+			"image/wudi_276": { "width": 200, "height": 200 },
+			"image/wudi_277": { "width": 200, "height": 200 },
+			"image/wudi_278": { "width": 200, "height": 200 },
+			"image/wudi_279": { "width": 200, "height": 200 },
+			"image/wudi_280": { "width": 200, "height": 200 },
+			"image/wudi_281": { "width": 200, "height": 200 }
+		}
+	}
+},
+"animations": {
+	"born": {
+		"slots": {
+			"image/guang": {
+				"color": [
+					{ "time": 0, "color": "feec6400" },
+					{ "time": 0.3333, "color": "feec64ff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "image/guang" }
+				]
+			},
+			"image/wdz_278": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "image/wdz_278" }
+				]
+			}
+		},
+		"bones": {
+			"guang": {
+				"rotate": [
+					{ "time": 0, "angle": -1 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.3, "y": 1.3 },
+					{ "time": 0.3333, "x": 3.2, "y": 3.2 }
+				]
+			},
+			"TX": {
+				"scale": [
+					{ "time": 0, "x": 2.911, "y": 2.911 }
+				]
+			}
+		}
+	},
+	"death": {
+		"slots": {
+			"image/wdz_278": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "image/wdz_278" }
+				]
+			}
+		},
+		"bones": {
+			"TX": {
+				"scale": [
+					{ "time": 0, "x": 2.911, "y": 2.911 }
+				]
+			}
+		}
+	},
+	"loop": {
+		"slots": {
+			"image/wdz_278": {
+				"attachment": [
+					{ "time": 0, "name": "image/wdz_278" }
+				]
+			},
+			"image/wudi_265": {
+				"attachment": [
+					{ "time": 0, "name": "image/wudi_265" },
+					{ "time": 0.0392, "name": "image/wudi_266" },
+					{ "time": 0.0784, "name": "image/wudi_267" },
+					{ "time": 0.1176, "name": "image/wudi_268" },
+					{ "time": 0.1568, "name": "image/wudi_269" },
+					{ "time": 0.196, "name": "image/wudi_270" },
+					{ "time": 0.2352, "name": "image/wudi_271" },
+					{ "time": 0.2744, "name": "image/wudi_272" },
+					{ "time": 0.3136, "name": "image/wudi_273" },
+					{ "time": 0.3528, "name": "image/wudi_274" },
+					{ "time": 0.392, "name": "image/wudi_275" },
+					{ "time": 0.4312, "name": "image/wudi_276" },
+					{ "time": 0.4704, "name": "image/wudi_277" },
+					{ "time": 0.5095, "name": "image/wudi_278" },
+					{ "time": 0.5487, "name": "image/wudi_279" },
+					{ "time": 0.5879, "name": "image/wudi_280" },
+					{ "time": 0.6271, "name": "image/wudi_281" },
+					{ "time": 0.6663, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"TX": {
+				"scale": [
+					{ "time": 0, "x": 2.911, "y": 2.911 }
+				]
+			}
+		}
+	}
+}
+}

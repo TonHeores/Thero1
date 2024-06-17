@@ -1,0 +1,120 @@
+{
+"skeleton": { "hash": "yKRc070lAawH4iLu63GQqMV4Y7M", "spine": "3.6.53", "width": 132, "height": 144, "images": "./image/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "TX_Z", "parent": "root", "color": "ff0000ff" },
+	{ "name": "TX", "parent": "TX_Z", "color": "ff0000ff" },
+	{ "name": "siwang", "parent": "TX" }
+],
+"slots": [
+	{ "name": "siwang", "bone": "siwang", "attachment": "siwang_79" }
+],
+"skins": {
+	"default": {
+		"siwang": {
+			"siwang_79": { "x": -0.75, "y": 35.2, "width": 132, "height": 144 },
+			"siwang_80": { "x": -0.75, "y": 35.2, "width": 132, "height": 144 },
+			"siwang_81": { "x": -0.75, "y": 35.2, "width": 132, "height": 144 },
+			"siwang_82": { "x": -0.75, "y": 35.2, "width": 132, "height": 144 },
+			"siwang_83": { "x": -0.75, "y": 35.2, "width": 132, "height": 144 },
+			"siwang_84": { "x": -0.75, "y": 35.2, "width": 132, "height": 144 },
+			"siwang_85": { "x": -0.75, "y": 35.2, "width": 132, "height": 144 },
+			"siwang_86": { "x": -0.75, "y": 35.2, "width": 132, "height": 144 },
+			"siwang_87": { "x": -0.75, "y": 35.2, "width": 132, "height": 144 },
+			"siwang_88": { "x": -0.75, "y": 35.2, "width": 132, "height": 144 },
+			"siwang_89": { "x": -0.75, "y": 35.2, "width": 132, "height": 144 },
+			"siwang_90": { "x": -0.75, "y": 35.2, "width": 132, "height": 144 },
+			"siwang_91": { "x": -0.75, "y": 35.2, "width": 132, "height": 144 },
+			"siwang_92": { "x": -0.75, "y": 35.2, "width": 132, "height": 144 },
+			"siwang_93": { "x": -0.75, "y": 35.2, "width": 132, "height": 144 },
+			"siwang_94": { "x": -0.75, "y": 35.2, "width": 132, "height": 144 },
+			"siwang_95": { "x": -0.75, "y": 35.2, "width": 132, "height": 144 },
+			"siwang_96": { "x": -0.75, "y": 35.2, "width": 132, "height": 144 },
+			"siwang_97": { "x": -0.75, "y": 35.2, "width": 132, "height": 144 },
+			"siwang_98": { "x": -0.75, "y": 35.2, "width": 132, "height": 144 },
+			"siwang_99": { "x": -0.75, "y": 35.2, "width": 132, "height": 144 },
+			"siwang_100": { "x": -0.75, "y": 35.2, "width": 132, "height": 144 },
+			"siwang_101": { "x": -0.75, "y": 35.2, "width": 132, "height": 144 },
+			"siwang_102": { "x": -0.75, "y": 35.2, "width": 132, "height": 144 },
+			"siwang_103": { "x": -0.75, "y": 35.2, "width": 132, "height": 144 },
+			"siwang_104": { "x": -0.75, "y": 35.2, "width": 132, "height": 144 },
+			"siwang_105": { "x": -0.75, "y": 35.2, "width": 132, "height": 144 },
+			"siwang_106": { "x": -0.75, "y": 35.2, "width": 132, "height": 144 },
+			"siwang_107": { "x": -0.75, "y": 35.2, "width": 132, "height": 144 },
+			"siwang_108": { "x": -0.75, "y": 35.2, "width": 132, "height": 144 },
+			"siwang_109": { "x": -0.75, "y": 35.2, "width": 132, "height": 144 },
+			"siwang_110": { "x": -0.75, "y": 35.2, "width": 132, "height": 144 },
+			"siwang_111": { "x": -0.75, "y": 35.2, "width": 132, "height": 144 },
+			"siwang_112": { "x": -0.75, "y": 35.2, "width": 132, "height": 144 },
+			"siwang_113": { "x": -0.75, "y": 35.2, "width": 132, "height": 144 },
+			"siwang_114": { "x": -0.75, "y": 35.2, "width": 132, "height": 144 },
+			"siwang_115": { "x": -0.75, "y": 35.2, "width": 132, "height": 144 },
+			"siwang_116": { "x": -0.75, "y": 35.2, "width": 132, "height": 144 },
+			"siwang_117": { "x": -0.75, "y": 35.2, "width": 132, "height": 144 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"siwang": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0333, "name": "siwang_79" },
+					{ "time": 0.0667, "name": "siwang_80" },
+					{ "time": 0.1, "name": "siwang_81" },
+					{ "time": 0.1333, "name": "siwang_82" },
+					{ "time": 0.1667, "name": "siwang_83" },
+					{ "time": 0.2, "name": "siwang_84" },
+					{ "time": 0.2333, "name": "siwang_85" },
+					{ "time": 0.2667, "name": "siwang_86" },
+					{ "time": 0.3, "name": "siwang_87" },
+					{ "time": 0.3333, "name": "siwang_88" },
+					{ "time": 0.3667, "name": "siwang_89" },
+					{ "time": 0.4, "name": "siwang_90" },
+					{ "time": 0.4333, "name": "siwang_91" },
+					{ "time": 0.4667, "name": "siwang_92" },
+					{ "time": 0.5, "name": "siwang_93" },
+					{ "time": 0.5333, "name": "siwang_94" },
+					{ "time": 0.5667, "name": "siwang_95" },
+					{ "time": 0.6, "name": "siwang_96" },
+					{ "time": 0.6333, "name": "siwang_97" },
+					{ "time": 0.6667, "name": "siwang_98" },
+					{ "time": 0.7, "name": "siwang_99" },
+					{ "time": 0.7333, "name": "siwang_100" },
+					{ "time": 0.7667, "name": "siwang_101" },
+					{ "time": 0.8, "name": "siwang_102" },
+					{ "time": 0.8333, "name": "siwang_103" },
+					{ "time": 0.8667, "name": "siwang_104" },
+					{ "time": 0.9, "name": "siwang_105" },
+					{ "time": 0.9333, "name": "siwang_106" },
+					{ "time": 0.9667, "name": "siwang_107" },
+					{ "time": 1, "name": "siwang_108" },
+					{ "time": 1.0333, "name": "siwang_109" },
+					{ "time": 1.0667, "name": "siwang_110" },
+					{ "time": 1.1, "name": "siwang_111" },
+					{ "time": 1.1333, "name": "siwang_112" },
+					{ "time": 1.1667, "name": "siwang_113" },
+					{ "time": 1.2, "name": "siwang_114" },
+					{ "time": 1.2333, "name": "siwang_115" },
+					{ "time": 1.2667, "name": "siwang_116" },
+					{ "time": 1.3, "name": "siwang_117" },
+					{ "time": 1.3333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"siwang": {
+				"scale": [
+					{ "time": 0, "x": 3.5, "y": 3.5 }
+				]
+			},
+			"TX": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 184.99 }
+				]
+			}
+		}
+	}
+}
+}

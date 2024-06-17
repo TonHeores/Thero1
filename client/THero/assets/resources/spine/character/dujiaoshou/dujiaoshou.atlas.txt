@@ -1,0 +1,104 @@
+
+dujiaoshou.png
+size: 1529,287
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: false
+  xy: 1032, 106
+  size: 350, 179
+  orig: 352, 179
+  offset: 1, 0
+  index: -1
+Hair
+  rotate: false
+  xy: 2, 5
+  size: 393, 280
+  orig: 393, 280
+  offset: 0, 0
+  index: -1
+Head
+  rotate: false
+  xy: 654, 73
+  size: 191, 212
+  orig: 191, 212
+  offset: 0, 0
+  index: -1
+Leg1_down
+  rotate: false
+  xy: 938, 95
+  size: 92, 190
+  orig: 93, 190
+  offset: 0, 0
+  index: -1
+Leg1_up
+  rotate: false
+  xy: 1133, 2
+  size: 78, 102
+  orig: 78, 102
+  offset: 0, 0
+  index: -1
+Leg2_down
+  rotate: true
+  xy: 1213, 10
+  size: 94, 178
+  orig: 94, 183
+  offset: 0, 5
+  index: -1
+Leg2_up
+  rotate: true
+  xy: 654, 3
+  size: 68, 103
+  orig: 68, 103
+  offset: 0, 0
+  index: -1
+Leg3_down
+  rotate: false
+  xy: 847, 94
+  size: 89, 191
+  orig: 92, 192
+  offset: 2, 1
+  index: -1
+Leg3_up
+  rotate: false
+  xy: 893, 5
+  size: 83, 87
+  orig: 87, 93
+  offset: 0, 6
+  index: -1
+Leg4_down
+  rotate: true
+  xy: 978, 7
+  size: 86, 153
+  orig: 88, 153
+  offset: 1, 0
+  index: -1
+Leg4_up
+  rotate: true
+  xy: 798, 4
+  size: 67, 93
+  orig: 71, 94
+  offset: 2, 1
+  index: -1
+Neck
+  rotate: false
+  xy: 1384, 125
+  size: 143, 160
+  orig: 278, 160
+  offset: 105, 0
+  index: -1
+Tail
+  rotate: false
+  xy: 397, 29
+  size: 255, 256
+  orig: 255, 256
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: true
+  xy: 759, 3
+  size: 68, 37
+  orig: 68, 38
+  offset: 0, 0
+  index: -1

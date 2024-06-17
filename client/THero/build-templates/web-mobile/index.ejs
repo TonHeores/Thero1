@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <script type="text/javascript">
+    function IsPC() {
+        var userAgentInfo = navigator.userAgent;
+        var Agents = ["Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod"];
+        var flag = true;
+        for (var v = 0; v < Agents.length; v++) {
+            if (userAgentInfo.indexOf(Agents[v]) > 0) {
+                flag = false;
+                break;
+            }
+        }
+        return flag;
+    }
+    function redirectToPlatform() {
+      const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+      console.log("userAgene=============",userAgent)
+      if(IsPC()){
+        location.href = "./index_pc.html?t="+Date.now();
+      }else{
+        location.href = "./index_mobile.html?t="+Date.now();
+      }
+      // if (userAgent.indexOf("iPad") > -1 || userAgent.indexOf("iPhone") > -1 || userAgent.indexOf("iPod") > -1) {
+      //   // 如果是iOS平台，则跳转到iOS版本的页面
+      //   window.location.href = "https://example.com/ios";
+      // } else if (userAgent.indexOf("Android") > -1) {
+      //   // 如果是Android平台，则跳转到Android版本的页面
+      //   window.location.href = "https://example.com/android";
+      // } else {
+      //   // 默认跳转到其他平台的页面
+      //   window.location.href = "https://example.com/other";
+      // }
+    }
+
+    window.onload = function () {
+      redirectToPlatform();
+    };
+  </script>
+
+<body>
+</body>
+
+</html>

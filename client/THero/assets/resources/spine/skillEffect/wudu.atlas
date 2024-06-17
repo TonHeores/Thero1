@@ -1,0 +1,139 @@
+
+wudu.png
+size: 530,152
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/guang
+  rotate: false
+  xy: 2, 46
+  size: 108, 104
+  orig: 111, 113
+  offset: 1, 5
+  index: -1
+image/wdz_278
+  rotate: false
+  xy: 112, 53
+  size: 96, 97
+  orig: 100, 100
+  offset: 2, 1
+  index: -1
+image/wudi_265
+  rotate: false
+  xy: 201, 22
+  size: 7, 29
+  orig: 100, 100
+  offset: 91, 44
+  index: -1
+image/wudi_266
+  rotate: true
+  xy: 394, 37
+  size: 17, 55
+  orig: 100, 100
+  offset: 81, 30
+  index: -1
+image/wudi_267
+  rotate: true
+  xy: 379, 10
+  size: 25, 71
+  orig: 100, 100
+  offset: 73, 21
+  index: -1
+image/wudi_268
+  rotate: true
+  xy: 297, 19
+  size: 33, 80
+  orig: 100, 100
+  offset: 65, 15
+  index: -1
+image/wudi_269
+  rotate: true
+  xy: 112, 11
+  size: 40, 87
+  orig: 100, 100
+  offset: 57, 10
+  index: -1
+image/wudi_270
+  rotate: false
+  xy: 439, 58
+  size: 41, 92
+  orig: 100, 100
+  offset: 50, 6
+  index: -1
+image/wudi_271
+  rotate: false
+  xy: 394, 56
+  size: 43, 94
+  orig: 100, 100
+  offset: 43, 4
+  index: -1
+image/wudi_272
+  rotate: false
+  xy: 303, 54
+  size: 43, 96
+  orig: 100, 100
+  offset: 36, 2
+  index: -1
+image/wudi_273
+  rotate: false
+  xy: 257, 54
+  size: 44, 96
+  orig: 100, 100
+  offset: 29, 2
+  index: -1
+image/wudi_274
+  rotate: false
+  xy: 210, 54
+  size: 45, 96
+  orig: 100, 100
+  offset: 22, 2
+  index: -1
+image/wudi_275
+  rotate: false
+  xy: 348, 55
+  size: 44, 95
+  orig: 100, 100
+  offset: 16, 2
+  index: -1
+image/wudi_276
+  rotate: true
+  xy: 2, 2
+  size: 42, 94
+  orig: 100, 100
+  offset: 10, 2
+  index: -1
+image/wudi_277
+  rotate: false
+  xy: 482, 59
+  size: 40, 91
+  orig: 100, 100
+  offset: 5, 2
+  index: -1
+image/wudi_278
+  rotate: true
+  xy: 210, 16
+  size: 36, 85
+  orig: 100, 100
+  offset: 2, 4
+  index: -1
+image/wudi_279
+  rotate: true
+  xy: 452, 28
+  size: 28, 76
+  orig: 100, 100
+  offset: 2, 7
+  index: -1
+image/wudi_280
+  rotate: true
+  xy: 452, 6
+  size: 20, 64
+  orig: 100, 100
+  offset: 2, 12
+  index: -1
+image/wudi_281
+  rotate: true
+  xy: 297, 6
+  size: 11, 45
+  orig: 100, 100
+  offset: 2, 20
+  index: -1

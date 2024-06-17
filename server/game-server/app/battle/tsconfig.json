@@ -1,0 +1,37 @@
+﻿{
+    "compilerOptions": {
+        
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "removeComments": false,
+      "noImplicitAny": false,
+      "target": "es2015",
+      "sourceMap": true,
+      "skipLibCheck": true,
+      "strictNullChecks":false,
+      "noUnusedLocals":false,
+
+      "strict": true,
+      "rootDir":".",
+      "outDir":"./bin",
+      "resolveJsonModule":true,
+      "esModuleInterop":true,
+      "noEmit": true,
+      "allowImportingTsExtensions": true
+    },
+
+    "ts-node": {
+      // Tell ts-node CLI to install the --loader automatically
+      "esm": true,
+      "experimentalSpecifierResolution": "node"
+    },
+    
+    "include": [
+      "./*.ts"
+, "_tmp/_BattleTroop_pos9.ts_", "_tmp/SkillObj.ts", "test/t.ts"    ],
+    "exclude": [
+      "node_modules",
+      "config",
+      "logs"
+    ]
+  }
