@@ -53,10 +53,10 @@ Join Ton Heroes on this thrilling journey and enjoy the blend of gaming and earn
 
 For more information, feel free to reach out to us on our social media channels or join our community chat.
 
-Play: https://t.me/TonHeroesBot 
-Chat: https://t.me/tonheroes1 
-Channel: https://t.me/tonheroes01 
-Twitter: https://x.com/TonHeroes1
+- **PLAY**: https://t.me/TonHeroesBot 
+- **Chat**: https://t.me/tonheroes1 
+- **Channel**: https://t.me/tonheroes01 
+- **Twitter**: https://x.com/TonHeroes1
 
 
 ## 🛠️ Contributing
